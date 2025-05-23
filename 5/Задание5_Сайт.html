@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>DarkSouls Fandom</title>
+    <link rel="shortcut icon" href="https://avatars.mds.yandex.net/i?id=cef4f770169eec8ff4a3c1f0f1ae47907f890792-3501814-images-thumbs&n=13">
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 1rem 2rem;                    /* Отступы: 1rem сверху/снизу, 2rem слева/справа */
+            display: flex;                         /* Включаем flex-расположение */
+            justify-content: space-between;        /* Распределение пространства между элементами */
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Лёгкая тень снизу */
+        }
+
+        .hed2 {
+            color: #D3D3D3;
+            padding: 1rem 10rem;
+        }
+
+        .hed3 {
+            color: #D3D3D3;
+            padding: 1rem 6rem;
+            border-radius: 15px;
+            border: 3px solid #4a4a4a;
+            background: #696969
+        }
+
+        .hed4 {
+            color: #D3D3D3;
+            padding: 1rem 2rem;
+        }
+
+        .hed5 {
+            color: #D3D3D3;
+            padding: 1rem 10rem;
+            border-radius: 15px;
+            border: 3px solid #4a4a4a;
+        }
+
+        .hed6 {
+            color: #D3D3D3;
+            padding: 1rem 10rem;
+            border-radius: 15px;
+            border: 3px solid black;
+        }
+
+        .text1 {
+            color: #D3D3D3;
+            padding: 1rem 5rem;
+        }
+        
+        .text2 {
+            color: #D3D3D3;
+            padding: 1rem 2rem;
+            line-height: 23px
+            font-size: 20px
+        }
+
+        .hrtop {
+            width: 98%;
+            height: 1px;
+            background: #D3D3D3;
+            border: 0;
+            margin: 0px 10px 10px 15px; /* отступы */
+        }
+
+        .hrNoTop {
+            height: 1px;
+            border: 0;
+        }
+
+        img {
+            padding: 1rem 3rem;
+
+
+        }
+
+        imgOpes {
+            opacity: 0.5;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .logo a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #A0522D;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+            .simple-footer {
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+
+        .footer-contacts {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+                .feedback-form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.5)
+        }
+
+        .feedback-form h3 {
+            margin-bottom: 15px;
+            color: white;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: grey;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid grey;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .form-group textarea {
+            height: 80px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: grey;
+            color: black;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 20px;
+            transition: background 0.3s;
+
+        }
+
+        .submit-btn:hover {
+            background-color: rgba(205, 133, 63, 0.5)
+        }
+
+    </style>
+</head>
+<body background="https://i.pinimg.com/originals/77/17/cf/7717cffe0bd8689197ac82050056f3c6.jpg">
+    <header>
+        <div class="logo">
+            <a><img src="https://www.pngplay.com/wp-content/uploads/10/Dark-Souls-Logo-No-Background.png" width="750" height="150"></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#section1">Игровой процесс</a></li>
+                <li><a href="#section2">Разработка</a></li>
+                <li><a href="#section3">Локализация</a></li>
+                <li><a href="#section4">Сюжет</a></li>
+                <li><a href="#section5">Системные требования</a></li>
+                <li><a href="#section6">Обратная связь</a></li>
+                <li><a href="#section7">Контакты</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <h1 class="hed2" style="font-size: 50px">Dark Souls</h1>
+    <p class="text1"><strong>Dark Souls (яп. ダークソウル, рус. Тёмные души) — видеоигра, разработанная компанией FromSoftware.</strong></p>
+    <hr class="hrtop">
+    <table class="hed5" style="border-left: 1px solid grey; border-collapse: collapse; background-color: rgba(0, 0, 0, 0.5);">
+      <tr>
+          <td><h2 align="center" class="hed3" id="section1"  style="font-size: 40px">Игровой процесс</h2></td>
+      </tr>
+      <tr>
+            <td class="text2"><strong><p>Так же как и её предшественница —
+            <a style="color: yellow" href="https://demonssouls.fandom.com/ru/wiki/Demon's_Souls">Demon's Souls</a>, игра выполнена в жанре action RPG в сеттинге средневековья и тёмного фэнтези. Мир разбит на несколько десятков тесно связанных подземелий, замков и прочих
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Локации">лабиринтов</a>, наполненных разнообразными опасными
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Категория:Противники_(Dark_Souls)">монстрами</a> и
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Боссы">боссами</a>. Здесь вам предстоит
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Характеристики_(Dark_Souls)">прокачать</a> своего персонажа, найти новое оружие, броню и магию.</p>
+
+            <br><p>Одной из ключевых механик является
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Смерть">смерть</a> персонажа. Поскольку здесь нет опций создания сохранений, при смерти вы будете перемещены к последней
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Костер">контрольной точке</a>, часть убитых врагов воскреснет и возникнет риск потери неиcпользованного
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Души">опыта</a>. Эквивалент опыта представлен в игре в виде душ, которые являются и валютой, необходимой для торговли.</p>
+
+            <br><p>Другие характерные особенности у игры — это
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Сетевая_игра">сетевые функции</a>, где игроки могут непосредственно помогать, либо мешать друг другу в прохождении. Также игру отличает от прочих проектов отсутствие в привычном понимании журнала заданий, карты и компаса — игрок должен самостоятельно построить картину мира и понять, что от него требуется для продвижения по сюжету, что бывает порой
+            <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Artorias_of_the_Abyss">неочевидно</a>; в игре отсутствует и пауза — путешествие проходит безостановочно и спокойно отсидеться получится лишь в некоторых локациях, куда не смогут попасть враги или игроки-вторженцы. Эти особенности сохранятся и в последующих играх серии (пауза в Souls-серии всё же появится — при включении фото-режима в
+            <a style="color: yellow" href="https://demonssouls.fandom.com/ru/wiki/Demon%27s_Souls_(2020)">Demon's Souls Remake</a>, переиздании духовного
+            <a style="color: yellow" href="https://demonssouls.fandom.com/ru/wiki/Demon%27s_Souls">прародителя</a> серии Dark Souls).</strong></p></td>
+            <td style="border-left: 1px solid grey; border-collapse: collapse;" ><img  src="https://i.pinimg.com/originals/6d/a1/ea/6da1eae00eaf6b0c5b45e6cdd073fbec.jpg" width="800" height="400"></td>
+      </tr>
+      <tr>
+          <td><h2 align="center" class="hed3" id="section2"  style="font-size: 40px">Разработка</h2></td>
+          <td><hr class="hrNoTop" color="grey"></td>
+      </tr>
+      <tr>
+          <td class="text2"><strong><p>У оригинальной
+          <a style="color: yellow" href="https://demonssouls.fandom.com/ru/wiki/Demon's_Souls">Demon's Souls</a> было непростое начало: было много проблем при разработке, на релизе в Японии получила плохие отзывы критиков и провалилась в продаже; тогда Sony потеряла интерес к этому эксклюзиву и за рубежом его выпускали уже другие компании. Но у западной аудитории игра смогла добиться успеха и вскоре, в том же 2010 году, Bandai Namco договаривается с Хидэтака Миядзаки и FromSoftware о разработке новой игры.</p>
+
+          <br><p>Первая информация об игре, которая тогда называлась "Project Dark", появилась из утечки с Tokyo Game Show в сентябре 2010г. Официальный анонс уже Dark Souls состоялся в феврале 2011г., а в сентябре того же года игра вышла на PlayStation 3 и Xbox 360.</p>
+
+          <br><p>Тогда игра добилась громкого успеха (в первые месяцы в Америке и Европе было распродано 1,5 миллиона копий) и появилось множество запросов от игроков о релизе на ПК (одна из таких петиций в 2012г. набрала 93 000 подписей). В итоге, в августе 2012, игра добралась и до ПК, где портированием занялась компания n-Space. Игра вышла с заголовком "Dark Souls: Prepare To Die Edition" и включала
+          <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Artorias_of_the_Abyss">дополнительный контент</a>. Позже, в октябре 2012, данное DLC вышло и на консолях, где оно получило отдельное название "Artorias of the Abyss".</p>
+
+          <br><p>11 января 2018г. на конференции Nintendo Direct состоялся анонс
+          <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Dark_Souls:_Remastered">переиздания игры</a>  для актуальных платформ. За версию для PC, PS4, Xbox One отвечала польская компания QLOC, и релиз прошёл 24 мая 2018г. Переиздание для Nintendo Switch подготовила китайская студия Virtuos, игра вышла 19 октября 2018г.</p></strong></td>
+          <td style="border-left: 1px solid grey; border-collapse: collapse" ><img src="https://vkplay.ru/hotbox/content_files/Stories/2023/02/03/115cc3d2519d49fcb5f2238bb6aeef1a.jpg" width="800" height="400"></td>
+      </tr>
+      <tr>
+          <td><hr class="hrNoTop" color="grey"></td>
+
+      </tr>
+
+    </table>
+    <h2 class="hed4" id="section3"  style="font-size: 40px">Локализация</h2>
+    <strong><p class="text2">Перевод игры с японского на английский выполнила компания Frognation, которая совместно с лондонской студией Liquid Violet также подготовила английскую озвучку всех реплик в игре. Перевод текстов на русский язык выполнен компанией 1С-СофтКлаб.</p></strong>
+
+    <table>
+         <tr>
+          <td align="center" colspan="2"><h2 class="hed3" id="section4"  style="font-size: 40px">暗い魂は私たちに大きな目標を&#8193;&#8193;&#8193;Сюжет&#8193;&#8193;&#8193;達成するための強さを与えます。</h2></td>
+      </tr>
+      <tr>
+            <td class="text2"><strong><p>Повествование начинается с тюремной камеры, где заточён
+                <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Избранный_Мертвец">протагонист</a>.
+                <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Оскар_из_Асторы">Неизвестный</a> сбрасывает ему
+                <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Ключ_от_темницы_в_подземелье">ключ</a> от двери, и позже даёт напутствие «ударить в
+                <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Колокола_Пробуждения">Колокол Пробуждения</a> и узнать судьбу нежити». Подробнее об истории возникновения мира можно узнать на странице
+                <a style="color: yellow" href="https://darksouls.fandom.com/ru/wiki/Первое_Пламя">Первого пламени</a>.<img src="https://symbolwiki.com/files/png/long-rightwards-arrow-symbol-symbolwiki.png" width="800" height="400"></strong></p></td>
+            <td class="hed5" width="932" height="50" style="border-left: 1px solid grey; border-collapse: collapse; background-color: rgba(0, 0, 0, 0.5);" ><p class="text2"><strong><i>"В Эру Древних мир был бесформенным, его окутывал туман. Это была земля серых утёсов, древних деревьев и присносущих драконов. Но затем был Огонь. И с приходом Огня всё распалось на две части. Жар и Холод, Жизнь и Смерть и конечно Свет и Тьма. И из Тьмы пришли Они, и Они нашли в пламени Души Повелителей: Нито — первый из мёртвых; Ведьма Изалита и её Дочери Хаоса; Гвин — Повелитель Света и его верные рыцари; и хитрый карлик, которого так легко забыть.
+
+Воспользовавшись Силой Повелителей, они бросили вызов драконам. Молнии Гвина разрывали их каменную чешую. Ведьмы призывали огненные смерчи. Нито насылал смерть и болезни. А Нагой Сит предал свой род и драконы сгинули. Так началась Эра Огня.
+
+Но вскоре пламя погаснет и останется только Тьма. Даже сейчас лишь тлеют угли и человек видит не свет, но бесконечную ночь, а среди живых ходят проклятые носители Знака Тьмы.
+
+Да, воистину, нежить заклеймена Знаком Тьмы. И в этих краях нежить сгоняют и ведут на север, где они будут томиться в заключении до конца дней. Таков твой удел. Но древние легенды гласят, что однажды мертвец будет избран. Он покинет Прибежище Нежити и отправится в страну Древних Повелителей — Лордран."</i></strong></p></td>
+      </tr>
+    </table>
+
+     <hr class="hrtop">
+    <div class="hed3" style="border-left: 1px solid grey; border-collapse: collapse; background-color: rgba(0, 0, 0, 0.5);">
+     <h2 align="center" id="section5"  style="font-size: 40px">Системные требования</h2>
+     <p align="center" class="text2"><strong>Для более стабильной работы PtDE издания настоятельно рекомендуется
+         <a style="color: yellow" href="https://www.nexusmods.com/darksouls/mods/19?tab=1&navtag=http%3A%2F%2Fwww.nexusmods.com%2Fdarksouls%2Fajax%2Fmoddescription%2F%3Fid%3D19%26preview%3D&pUp=1">установить</a> и
+         <a style="color: yellow" href="https://steamcommunity.com/sharedfiles/filedetails/?id=311634960">настроить</a> программу DSFix версии 2.4.</strong></p>
+
+     <table  class="hed6" width="932" height="50" style=" border-collapse: collapse; background-color: rgba(0, 0, 0, 0.4); width:1000px; margin: 20px auto;">
+         <tr align="center" style="border: 2px solid black">
+             <td></td>
+             <td>Prepare To Die Edition</td>
+             <td>Remastered</td>
+         </tr>
+         <tr align="center" style="border: 1px solid black">
+             <td align="left">ОС:</td>
+             <td >Windows XP, Windows Vista, Windows 7</td>
+             <td>Windows 7 SP1 64bit, Windows 8.1 64bit, Windows 10 64bit</td>
+         </tr>
+         <tr align="center" style="border: 1px solid black">
+             <td align="left">Процессор:</td>
+             <td>Intel Core 2 Duo E6850 3.0 GHz, AMD Phenom II X2 545 3.0 GHz</td>
+             <td>Intel Core i5-2300 2.8 GHz, AMD FX-6300 3.5 GHz</td>
+         </tr>
+         <tr align="center" style="border: 1px solid black">
+             <td align="left">Оперативная память:</td>
+             <td>2 GB ОЗУ</td>
+             <td>6 GB ОЗУ</td>
+         </tr>
+         <tr align="center" style="border: 1px solid black">
+             <td align="left">Видеокарта:</td>
+             <td>GeForce 9800 GTX, ATI Radeon HD 4870</td>
+             <td>GeForce GTX 460, AMD Radeon HD 6870</td>
+         </tr>
+         <tr align="center" style="border: 1px solid black">
+             <td align="left">Место на диске:</td>
+             <td>3.7 GB</td>
+             <td>6.9 GB</td>
+         </tr>
+         <tr align="center" style="border: 1px solid black">
+             <td align="left">DirectX:</td>
+             <td>Версия 9.0c</td>
+             <td>Версия 11</td>
+         </tr>
+     </table>
+
+    </div>
+
+
+
+    <div class="feedback-form">
+        <h3 id="section6">Обратная связь</h3>
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contact">Email или телефон:</label>
+                <input type="text" id="contact" name="contact" required>
+            </div>
+
+            <div class="form-group">
+                <label for="type">Тип обращения:</label>
+                <select id="type" name="type">
+                    <option value="question">Вопрос</option>
+                    <option value="feedback">Отзыв</option>
+                    <option value="suggestion">Предложение</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Отправить</button>
+        </form>
+    </div>
+
+
+
+    <footer class="simple-footer">
+        <span class="footer-contacts">Москва, ул. Примерная, 123</span>
+        <span class="footer-contacts">+7 (123) 456-78-90</span>
+    </footer>
+    <footer class="simple-footer">
+        <span class="footer-contacts"><a href="https://vk.com/lonor31"><img src="https://freepnglogo.com/images/all_img/vk-logo-75d4.png" width="150" height="85"  style="padding: 1rem 3rem;"><p style="padding: -1rem 3rem; color:white" id="section7">ВКонтакте</p></a></span>
+    </footer>
+</body>
+</html>
